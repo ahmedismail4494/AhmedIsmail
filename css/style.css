@@ -1,0 +1,695 @@
+/*
+ 
+    Theme Name:   EliteCorp
+    Theme Coder:  Ahmed Ismail
+    psd Designer: Ahmed Ismail
+
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*    ---------------------------------  Start tamplet_bootstrap_level_2  ---------------------------------    */
+/**/
+/**/
+
+/****    ------------------------ Start Body  ------------------------    ****/
+body {
+  width: auto;
+  background: #fff;
+  font-family: "PT Serif", serif;
+  /*  font-family: 'Open Sans', sans-serif;      */
+}
+/****    ------------------------ End   Body  ------------------------    ****/
+
+/*  --- colors ---
+                             *  
+                                    B: #095370
+                                    
+                                    R: #EC1D25    */
+
+/*    ---------------------------------  Start Header  ---------------------------------    */
+/**/
+/**/
+
+/****    ------------------------ Start Normal Header > navbar ------------------------    ****/
+
+.header {
+}
+.header .navbar {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  z-index: 2;
+}
+
+.header .navbar .navbar-brand {
+  color: #ec1d25;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header .navbar .navbar-brand i {
+  color: #095370;
+}
+
+.header .navbar .navbar-brand span {
+  color: #095370;
+}
+
+.header .navbar-nav {
+  padding-top: 3%;
+}
+
+.header .navbar-nav .nav-link {
+  color: #095370;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header .navbar-nav .nav-item .nav-link:hover,
+.header .navbar-nav .active > .nav-link {
+  color: #ec1d25;
+}
+
+/****    ------------------------ End   Normal Header > navbar ------------------------    ****/
+
+/****    ------------------------ Start Normal Header > photo ------------------------    ****/
+
+.header .cover {
+  background: #ddd;
+  background-image: url("../images/cc_1.jpg");
+  background-position: left center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+
+.header .cover .layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header .cover .part_1 {
+  margin: 30% auto;
+}
+
+.header .cover .part_1 h2 {
+  width: 50%;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
+
+/****    ------------------------ End   Normal Header > photo ------------------------    ****/
+
+/**/
+/**/
+/*    ---------------------------------  End  Header  ---------------------------------    */
+
+/*  --- colors ---
+                             *  
+                                    B: #095370
+                                    
+                                    R: #EC1D25    */
+
+/*    ---------------------------------  Start CONTENT  ---------------------------------    */
+/**/
+/**/
+
+/****    ------------------------ Start Normal About_Me ------------------------    ****/
+
+.about {
+  padding: 100px 0px;
+}
+
+.about .part_1 {
+}
+
+.about .part_1 h2 {
+  margin: auto;
+  text-align: center;
+  display: block;
+  color: #095370;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.about .part_1 span {
+  margin: auto;
+  text-align: center;
+  color: #ec1d25;
+}
+
+.about .part_2 {
+  color: #095370;
+}
+
+.about .part_2 h5 {
+  font-weight: bold;
+  padding: 40px 0px 30px;
+}
+
+.about .part_2 p {
+  display: block;
+  color: #095370;
+}
+
+.about .part_2 span {
+  color: #ec1d25;
+  font-weight: bold;
+}
+
+/****    ------------------------ End   Normal About_Me ------------------------    ****/
+
+/****    ------------------------ Start Normal service ------------------------    ****/
+
+.service {
+  background: #eafcf9;
+  padding: 100px 0px 80px;
+}
+
+.service .part_1 {
+}
+
+.service .part_1 h2 {
+  margin: auto;
+  text-align: center;
+  display: block;
+  color: #095370;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.service .part_1 span {
+  margin: auto;
+  text-align: center;
+  color: #ec1d25;
+}
+
+.service .part_2 .item {
+  padding-bottom: 20px;
+}
+.service .part_2 .item > div {
+  height: 150px;
+  width: 150px;
+  line-height: 200px;
+  margin: auto;
+  color: #ffffff;
+  background: #ec1d25;
+  border-radius: 50%;
+  border: 2px solid #ec1d25;
+}
+.service .part_2 svg {
+}
+
+.service .part_2 .item > div:hover {
+  background: #fff;
+  color: #ec1d25;
+  border: 2px solid #ec1d25;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+}
+
+.service .part_2 h3 {
+  color: #095370;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+
+.service .part_2 p {
+  display: block;
+  color: #095370;
+}
+
+.service .part_2 span {
+  color: #ec1d25;
+  font-weight: bold;
+}
+
+/****    ------------------------ End   Normal service ------------------------    ****/
+
+/****    ------------------------ Start Normal skills ------------------------    ****/
+
+.skills {
+  background: #fff;
+  padding: 100px 0px 20px;
+}
+
+.skills .part_1 {
+}
+
+.skills .part_1 h2 {
+  margin: auto;
+  text-align: center;
+  display: block;
+  color: #095370;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.skills .part_1 span {
+  margin: auto;
+  text-align: center;
+  color: #ec1d25;
+}
+
+.skills .part_2 {
+  padding: 5px 0px;
+}
+
+.skills .part_2 .item_1 {
+  padding-bottom: 50px;
+  overflow: hidden;
+  direction: rtl;
+  text-align: right;
+}
+
+.skills .part_2 .item_1 h3 {
+  color: #095370;
+  font-weight: bold;
+  margin: 0px 15px;
+}
+
+.skills .part_2 .item_1 .bar {
+  padding: 5px;
+  margin: 10px;
+}
+
+.skills .part_2 .item_1 .bar p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ec1d25;
+}
+
+.skills .part_2 .item_1 .progress {
+  background-color: #e0fff9;
+}
+
+.skills .part_2 .item_1 .progress-bar {
+  background: #095370;
+}
+
+.skills .part_2 .item_2 {
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.skills .part_2 .item_2 h3 {
+  color: #095370;
+  font-weight: bold;
+  margin: 0px 15px;
+}
+
+.skills .part_2 .item_2 .bar {
+  padding: 5px;
+  margin: 10px;
+}
+
+.skills .part_2 .item_2 .bar p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ec1d25;
+}
+
+.skills .part_2 .item_2 .progress {
+  background-color: #e0fff9;
+}
+
+.skills .part_2 .item_2 .progress-bar {
+  background: #095370;
+}
+
+/****    ------------------------ End   Normal skills ------------------------    ****/
+
+/****    ------------------------ Start Normal Choose_US ------------------------    ****/
+.Choose {
+  padding-top: 100px;
+  background: #fff;
+}
+
+.Choose .row {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Choose .part_1 {
+  width: 100%;
+  height: 500px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Choose .part_1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.Choose .part_2 {
+  height: 500px;
+  background: #095370;
+  padding: 60px 80px 80px 20px;
+  overflow: hidden;
+}
+
+.Choose .part_2 h2 {
+  color: #fff;
+  float: left;
+  background: #ec1d25;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.Choose .part_2 p {
+  color: #ededed;
+  float: left;
+  margin-bottom: 30px;
+}
+
+/****    ------------------------ End   Normal Choose_US ------------------------    ****/
+
+/*  --- colors ---
+                             *  
+                                    B: #095370
+                                    
+                                    R: #EC1D25 */
+
+/****    ------------------------ Start Normal Contact_Me ------------------------    ****/
+
+.contact {
+  height: 500px;
+  padding: 100px 0px;
+}
+
+.contact .row_1 {
+}
+
+.contact .row_1 h2 {
+  margin: auto;
+  text-align: center;
+  display: block;
+  color: #095370;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.contact .row_1 span {
+  margin: auto;
+  text-align: center;
+  color: #ec1d25;
+}
+
+.contact .row_2 {
+}
+
+.contact .row_2 .part_1 {
+  margin-bottom: 40px;
+}
+
+.contact .row_2 .part_1 h6 {
+  height: 20%;
+  font-size: 2em;
+  color: #095370;
+}
+
+.contact .row_2 .part_1 ul {
+  list-style: none;
+  color: #777;
+}
+
+.contact .row_2 .part_1 ul li {
+  line-height: 40px;
+}
+
+.contact .row_2 .part_2 {
+  position: relative;
+}
+
+.contact .row_2 .part_2 h6 {
+  height: 20%;
+  font-size: 2em;
+  color: #095370;
+}
+
+.contact .row_2 .part_2 .ul_1 {
+  height: 30%;
+  width: 100%;
+  list-style: none;
+  color: #777;
+  position: relative;
+}
+
+.contact .row_2 .part_2 .ul_1 {
+  height: 30%;
+  width: 100%;
+  list-style: none;
+  color: #777;
+}
+
+.contact .row_2 .part_2 .ul_1 li {
+  line-height: 40px;
+}
+
+.contact .row_2 .part_2 .ul_2 {
+  width: 100%;
+  height: 100%;
+  color: #777;
+  overflow: hidden;
+}
+
+.contact .row_2 .part_2 .ul_2 li {
+  width: 10%;
+  height: 50px;
+  line-height: 100%;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 1%;
+  margin: 1%;
+  border: 1px solid #777;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact .row_2 .part_2 .ul_2 li i {
+  color: #777;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact .row_2 .part_2 .ul_2 li:hover {
+  background-color: #095370;
+}
+.contact .row_2 .part_2 .ul_2 li:hover i:nth-child(1) {
+  color: #fff;
+}
+
+/****    ------------------------ Start Normal Contact_Me ------------------------    ****/
+
+/**/
+/**/
+/*    ---------------------------------  End  CONTENT  ---------------------------------    */
+
+/*    ---------------------------------  Start Footer  ---------------------------------    */
+/**/
+/**/
+
+/****    ------------------------ Start Normal Copyrights ------------------------    ****/
+
+.Copyrights {
+  height: 60px;
+  padding: 10px;
+  border-top: 2px solid #999;
+  line-height: 60px;
+  color: #999;
+}
+
+/****    ------------------------ End   Normal Copyrights ------------------------    ****/
+
+/**/
+/**/
+/*    ---------------------------------  End  Footer  ---------------------------------    */
+
+/*  5-   Start  Scroll To Top Button      */
+.butup {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: none;
+}
+.butup button {
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* 5-   End  Scroll To Top Button       */
+
+/*    ---------------------------------  Start My_Own_Fram_Work  ---------------------------------    */
+/**/
+/**/
+
+.clearboth {
+  clear: both;
+}
+
+hr {
+  width: 10%;
+  height: 2px;
+  margin: 20px auto;
+  background: #ec1d25;
+  margin-bottom: 50px;
+}
+
+/**/
+/**/
+/*    ---------------------------------  End  My_Own_Fram_Work  ---------------------------------    */
+
+/*    ---------------------------------  Start Media  ---------------------------------    */
+/**/
+/**/
+
+/****   --- Start Media Header > photo ---    ****/
+
+/* Extra small devices (portrait phones, less than 576px)  */
+@media (max-width: 575.98px) {
+  /**** ---    Start Media CONTENT > Contact_Me    --- ****/
+  .contact {
+    height: 700px;
+  }
+
+  .contact .row_2 .part_2 .ul_2 li {
+    width: 15%;
+  }
+
+  /**** ---    Start Media Header > photo   --- ****/
+  .header .cover .part_1 {
+    margin: 70% auto;
+  }
+  .header .cover .part_1 h2 {
+    width: 100%;
+  }
+
+  /**** ---    Start Media CONTENT > Choose_Me    --- ****/
+  .Choose .part_1 {
+    height: 400px;
+  }
+
+  .Choose .part_2 {
+    height: 550px;
+  }
+
+  .Choose .part_2 h2 {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+
+  /**** ---    Start Media GENERAL   --- ****/
+  hr {
+    width: 20%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /**** ---    Start Media CONTENT > Contact_Me   --- ****/
+  .contact {
+    height: 700px;
+  }
+
+  .contact .row_2 .part_2 .ul_2 li {
+    width: 15%;
+  }
+
+  /**** ---    Start Media Header > photo    --- ****/
+  .header .cover .part_1 {
+    margin: 70% auto;
+  }
+  .header .cover .part_1 h2 {
+    width: 100%;
+  }
+
+  /**** ---    Start Media CONTENT > Choose_Me    --- ****/
+  .Choose .part_1 {
+    height: 400px;
+  }
+
+  .Choose .part_2 {
+    height: 550px;
+  }
+
+  .Choose .part_2 h2 {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+
+  /**** ---    Start Media GENERAL   --- ****/
+  hr {
+    width: 20%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /**** ---    Start Media CONTENT > Contact_Me    --- ****/
+  .contact .row_2 .part_2 .ul_2 li {
+    width: 15%;
+  }
+
+  /**** ---    Start Media Header > photo   --- ****/
+  .header .cover .part_1 {
+    margin: 70% auto;
+  }
+  .header .cover .part_1 h2 {
+    width: 100%;
+  }
+
+  /**** ---    Start Media CONTENT > Choose_Me    --- ****/
+  .Choose .part_2 h2 {
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .contact .row_2 .part_2 .ul_2 li {
+    width: 16%;
+  }
+}
+
+/**/
+/**/
+/*    ---------------------------------  End  Media  ---------------------------------    */
